@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+    <style>
+        .header
+        {
+            position: absolute;
+            display: block;
+             left: 350px;
+             top:25px;
+
+        }
+        .header_line
+        {
+            position:absolute;
+            background-color: darkgray;
+            height:50px;
+            width: 1210px;
+            left:350px;
+            top:175px;
+            display: flex;
+            justify-content: flex-start;
+            padding: 2px;
+        }
+        .header_line li
+        {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: bold;
+        }
+        nav li {
+           display: inline;
+           margin-right: 40px;
+        }
+        
+        nav li a {
+           color: white;
+        }
+
+        nav li a:hover, nav li a.current {
+        color: #000000;
+        }
+        .body
+        {
+            position:absolute;
+            background-color: white;
+            height:700px;
+            width: 1214px;
+            left:350px;
+            top:225px;
+        }
+        .bottom
+        {
+            position:absolute;
+            background-color: darkgray;
+            height:40px;
+            width: 1195px;
+            left:350px;
+            top:925px;
+            padding-left: 20px;
+            padding-top: 20px;
+            color: white;
+        }
+        .img1
+        {
+            border-style: outset;
+            position: absolute;
+            left:375px;
+            top:275px;
+
+        }
+        .img2
+        {
+            border-style: outset;
+            position: absolute;
+            left: 375px;
+            top: 600px;
+        }
+        .box1
+        {
+            position: absolute;
+            top:275px ;
+            left:800px;
+        }
+        .box2
+        {
+            position: absolute;
+            top:600px ;
+            left:800px;
+        }
+        .box3
+        {
+            position: absolute;
+            color:pink;
+            top: 275px;
+            left:1200px;
+            
+        }
+        
+        .box4
+        {
+
+            position: absolute;
+           
+            top: 700px;
+            left:1200px;
+        }
+        .vl
+        {
+           position: absolute;
+           top:225px ;
+           left: 1000px;
+            border-left: 1px solid rgb(168, 170, 168);
+            height: 700px;
+        }
+        
+         aside div a {
+            display: block;
+            padding: 10px;
+            border-bottom: 1px solid rgb(241, 238, 238);
+       }
+       aside div a:hover {
+        color:pink;
+        background-color: #efefef;
+        }
+
+
+
+      
+       
+        
+        a {
+        color:pink;
+        text-decoration: none;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="cotainer">
+        <img src="dark-wood.jpg" alt="image" style="width: 2000px;height: 1000px ;">
+        <div class="header">
+            <img src="header.jpg" alt="image1"  class="center" style="width: 1214px; height:150px;">
+        </div>
+        <div class="header_line">
+            <nav>
+            <ul>
+               
+            <li><a href="">home</a></li>
+         
+           <li><a href="">classes</a></li> 
+           <li> <a href="">catering</a></li>
+           <li> <a href="">about</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </nav>
+        </div>
+        <div class="body">
+
+
+        </div>
+        <div class="bottom">
+            <i class="fa fa-copyright" aria-hidden="true">2011 YOKO'S Kitchen</i>
+
+        </div>
+        <div class="image1">
+            <div class="img1">
+            <img src="bok-choi.jpg" alt="image2"   style="width: 350px; height:250px;"><br>
+            <figcaption> Bok Choi</figcaption>
+             </div>
+             <div class="img2">
+            <img src="teriyaki.jpg" alt="image2"   style="width: 350px; height:250px;"><br>
+            <figcaption>Teriyaki Sause</figcaption>
+              </div>
+              <div class="box1">
+               <h1> <font color="black">Japanese Vegetarian</font></h1>
+               <h3><font color="pink"> Five week course in London</font> </h3> 
+               <h3> A five week introduction to traditional <br> Japanese vegetarian meals, teaching you a <br> selection of rice and noodle
+                dishes.</h3>
+              </div>
+              <div class="box2">
+                <h1> <font color="black">Sauces Masterclass</font></h1>
+                <h3><font color="pink">  One day workshop</font></h3>
+               <h3> An intensive one-day course looking at how <br> to create the most delicious sauces for use in <br> a range of Japanese cookery.</h3>
+               <div class="vl"></div>
+            </div>
+              <aside>
+              <div class="box3">
+                <h1>Popular Recipies</h1>
+               <a href=""><h3>Yakitori (grilled chicken)</h3></a>
+                <a href=""><h3>Tsukune (minced chicken patties)</h3></a>
+               <a href=""><h3>Okonomiyaki (savory pancakes)</h3></a>
+                <a href=""><h3>Mizutaki (chicken stew)</h3></a>
+                  
+              </div>
+              
+              <div class="box4">
+                  <h1><font color="pink">Contact</font></h1>
+                  YOKO'S Kitchen <br>
+                  Younus College of Engineering,<br>
+                  Pallimuk,<br>
+                  Vadakevila P.O,<br>
+                  Kollam-691010 <br>
+              </div>
+              
+            </aside>
+
+        </div>
+    </div>
+</body>
+</html>
